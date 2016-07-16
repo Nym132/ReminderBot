@@ -47,9 +47,13 @@ controller.hears('.*', ['direct_message', 'direct_mention'], function (bot, mess
 
 setInterval(function()
 {
+	
 	var date = new Date()
 	var currentHour = date.getHours()
-	if(currentHour === 15)
+	var currentMinute = data.getMinutes()
+	console.log(currentHour)
+	console.log(currentMinute)
+	if(currentHour === 20 && currentMinute === 43)
 	{
 		bot.say({
     text: "Hello World!",
