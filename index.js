@@ -53,7 +53,7 @@ setInterval(function()
 	var currentMinute = date.getMinutes()
 	console.log(currentHour)
 	console.log(currentMinute)
-	if(currentHour === 20 && currentMinute === 45)
+	if(currentHour === 0 && currentMinute === 47)
 	{
 		bot.say({
     text: "Hello World!",
