@@ -58,6 +58,6 @@ setInterval(function()
 		bot.say({
     text: "Hello World!",
     channel: "#testinggrounds"
-});
+})
 	}
-}, 60000)
+}, 1000)
