@@ -50,10 +50,10 @@ setInterval(function()
 	
 	var date = new Date()
 	var currentHour = date.getHours()
-	var currentMinute = data.getMinutes()
+	var currentMinute = date.getMinutes()
 	console.log(currentHour)
 	console.log(currentMinute)
-	if(currentHour === 20 && currentMinute === 43)
+	if(currentHour === 20 && currentMinute === 45)
 	{
 		bot.say({
     text: "Hello World!",
